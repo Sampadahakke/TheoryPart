@@ -1,0 +1,10 @@
+Debugging-
+It is a process with help of which we can go through the code line by line at run time.It helps us to check whether our code is working as expected or not also we can find rumtime error.
+For debugging we need a breakpoint so it is a point from where we can break execution and start debugging the code.
+-We can delete the breakpoint also disable the breakpoint when we diable the breakpoint during runtime it does not get hit.
+-we can also apply condiotion so that breakpoint will only hit after that condition for example in for loop.
+-Breakpoint windows-
+1.Breakpoint window-in this we can do all activitites with brakpoint.
+2.call stack window-it will show the sequence of breakpoint means from where break point starts.
+3.locals window- it will show the values of local variable.
+4.Immidiate window-It will give the variable values and we also can assign some values to variables.
