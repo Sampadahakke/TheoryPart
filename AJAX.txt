@@ -1,0 +1,45 @@
+AJAX-Ascycronous Javascript And XML.It is used to retrive the data from server ascycronously.
+----------------------------------------------------------------------------------------------------------------------------------
+-Web application with ajax enables partial view updates that means onnly related section of
+ page is updated without reloading the entire page.
+----------------------------------------------------------------------------------------------------------------------------------
+In Ajax when request is send by user, the response coming from server is handled by callback functions.
+Callback function is spl function which is used in ajax so that server can respond to client when server is ready to send the data
+to client.
+----------------------------------------------------------------------------------------------------------------------------------
+-Advantages of ajax:
+1.Ajax applications are  non blocking:
+As ajax requests are ascycronous user need not to wait until the request processing is complete.
+when req is send to server the user is not get blocked so during the req is processing the page
+is remain responsive and user can interact with other paart. After req processing is completed the UI(user interface) get updated.
+
+2.Better performance and reduced network traffic:
+With the help of ajax only required data is send and recive and due to this network traffic is reduced.
+
+3.No screen Flicker:
+Due to ajex only some portion of page is updated without reloading or refreshing the entire page hence it avoids screen flickering.
+
+4.In ajax without refreshing the whole page in background we can sent req,process in backgrond and recivethe response from server
+also we can display the response on page withot reloading the page.
+-----------------------------------------------------------------------------------------------------------------------------------
+-Disadvantages of Ajax:
+1.Ajax relises on javascript so if javascript is disabled then ajax application can not work.
+2.Ajax applications are harder to debug.
+-----------------------------------------------------------------------------------------------------------------------------------
+-Applications of Ajax:
+1.It is used to create autocomplete  feature in google, youtube.--when you type something in google or youtube it shows 
+some autocomplete suggessions.
+2.it used in gmail for autosave feature--when you are going to compose any mail and sudenly light gone then that data
+ will be automatically saved.
+3.It is used for remote validations in gmail--when we are going to create new account and if we enter existing user name then it 
+shows this username already exist.
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+https://medium.com/@ertekinozturgut/add-mvc-controller-with-views-using-entity-framework-in-net-6-a277722a38ea
+
+
+-What is MVC?
+M-Model
+V-View
+C-Controller
