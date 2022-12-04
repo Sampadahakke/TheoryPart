@@ -1,0 +1,22 @@
+What is mean by DML?
+-It is a Data Manipulation language which provides statements to perform opertions of insert, update and delete 
+the data from database tables.
+------------------------------------------------------------------------------------------------------------------------
+What is DML Triggers?
+-The triggers are nothing but logics like stored procedure which executes automatically and the triggers which executs 
+in response to DML triggers is called as DML Triggers.
+-------------------------------------------------------------------------------------------------------------------------
+What are the types of DML Triggers?
+1.After Trigger-(It is also called as For Trigger)It executes after the execution of insert ,update or delete operation 
+or event.Firstly Insert/Update/Delete operations takes place and after that trigger get fired.
+2.Instead of Trigger- It get fired instead of Insert/Update/Delete operations.
+-------------------------------------------------------------------------------------------------------------------------
+Advantages of Trigger:
+1.It is like stored procedure, we can use it many time that means reuse of that query is possible.
+2.Helps to apply some validations to data(like age should not be more than 25)
+3.Helps in catching error
+--------------------------------------------------------------------------------------------------------------------------
+When we create trigger for Insert/Update/Delete operations and after execution of this operations trigger get fired and that 
+time sql server creates table with name insered and this table is only accessible withen the trigger context.And in this table
+the data is maintained which is inserted/deleted/updated from the main table.
+---------------------------------------------------------------------------------------------------------------------------
