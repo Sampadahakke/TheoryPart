@@ -1,0 +1,41 @@
+ASP .Net application life cycle:-
+Application         Object            HTTP                                  Application
+   start   ------>  Creation -------> Application --------> Dispose ------> End
+
+1.Application start-  Application starts when a resquestis made by user.When application start method calls that time global varibles have 
+                                  their default values.
+2.Object creation-   In this stage HTTPContext,HTTPRequest and HTTPResponse creats.
+                                  HTTPContext is the container of HTTPRequest and HTTPResponse.
+                                  HTTPRequest object contains information about the current requset including cookies and browser information.
+                                  HTTPResponse object contains the response that is sent to the client.
+3.HTTP Application-  This object is created by web server.It is the object which is created to process the subsequent request sent by 
+                                 the application.(if there are two applications then two seperate HTTP Applications are created by the web server 
+                                  to process the request sent by the application)
+4.Dispose         -       This event is created before the application instance is destroyed.
+5.Application end -  This is the final part of the application. In this part Application unloaded from the memoey.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ASP .Net page life cycle :-
+
+Page                    Page            Page                       Page                                           Event                   
+Request --------> Start -------> Initialization ------->Load -------->Validation -------> Handling --------> Rendering --------> Unload
+
+1. Page Request - In this stage, page is requested from server.So fistlt the server checks that the req is requested first time or not.
+                               If yes, then need to complile the page ,parse the response and send the req to the client. if not, then server checks tha cache 
+                               if output of the page exists then it is sent to the user.
+
+2.Page start -       In  this stage 2 objects  creates  one is request and other one is response.
+                              Request object holds the information which was sent when page was requested.
+                              Response object holds the response which is sent to the user.
+
+3.Page Initia-
+ lization            -   In this stage All the controlsare set on the page.
+
+4. Validation    - It happens when execution of application is successful.
+
+5.Event Handling - An event take place when same pages are loaded (post back event-which checks the page credentials).
+
+6.Rendering     - 
+
+7. Unload         -
