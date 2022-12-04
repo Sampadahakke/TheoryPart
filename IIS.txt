@@ -1,0 +1,4 @@
+What is mean by IIS Express?
+-It is the default web server which is used to build and test the asp.net applications.
+-If we want that our application can be use by anyone or can anyone access it then this is done by iis express.
+-IIS-Internet Information services
