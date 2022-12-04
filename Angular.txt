@@ -1,0 +1,118 @@
+ History of angular:
+1.In 2010 first version of angular is came which is called as angular js. (based on java script)
+2.In 2016 second version of angular is came which is totally diff from first one. (based on typescript)
+
+What is mean by angular:
+Angular is a javascript framework which allows us to built single page application.
+
+What is mean by Single page application:
+when we do any work it will render on single page . and when we edit something or when we want to switch from one to other then we can switch without reloading 
+our page.A single-page application is an app that works inside a browser and does not require page reloading during use.
+[single page application is an web page application in which all information is stored only in single page ad when we want to switch from one to other 
+then it can switch without reloading the page.
+
+What is mean by CLI(Command Line Interface):
+Command line interface is a tool which is used to initialize,develop Angular applications directly from a command shell.
+that means for example if we want to create any componant then we can create it just by  writing command in command shell so that we did not require 
+to write any code for that.
+
+*App componant is the root componant of our application
+*in ts file our logic is written 
+
+What is mean by componant:
+Componant is nothing but a simle typescript  class in which we can write our own methods,properties according to requirments which will used to bind with our UI.
+There are total 4 files in componant:
+1.html file-in this we write code for ui
+2.spec file-in this we write test cases
+3.scss file-in this file we write css code
+4.ts file-in this file we write our logic, methods
+
+What is mean by data binding:
+data binding is a technique in which data is binded between ts and html file. because in ts file we write logic methods and result of that we have to 
+display to user on page and for that we have to do data binding.
+--Types of data binding:
+1.One way data binding:
+In one way data binding result in ts file is displayed in view .
+a)string interpolation-{{note}}
+b)property data binding-[recivedlist]=note
+c)event binding
+2.Two way binding:
+in this type result in ts file is displayed in view and any udate in view is displayed in ts file.
+a)[(ngModel)]- in this there are [] and () bracket which indicates property binding and event binding res.
+  when we do two way binding data get updated both in ts and html.
+
+
+
+Event binding:
+In this aany update in view is shown in  ts file.
+In event binding when we click any button event take place.
+It is a tech in which action is performed on any event.Clicking any button is also a event so when we want to call any method just after clicking 
+ butten  then that time we use event binding.
+
+Data sharing:
+types of data sharing-A) Child to parent B) Parent to child C) Unrelavent data sharing
+A) Child to parent data sharing:
+To pass data from child to parent componant we have to use event emitter and output decorator.
+B)Parent to child data sharing:@Input decorator is used
+C)Unrelavant data sharing:
+It is done when we have to share the data betaween two componants which are siblings,grandchildren and for this we use services to share data.
+
+
+Decorators:
+it is indicated by giving @ at start means at prefix.
+It is used asa function.
+It passes metadata to angular about class,property and methods etc.
+Decorators are invoked at runtime.
+Examples of Decorators:
+1.@ngModule-It used to define module
+2.@Componant-it defines componant
+3.@Input and @Output- This decorators are used to send and recieve data to view(DOM). When we have to comunicate between componants like parent to child and child to parent then we use
+these decorators.
+4.@Injectable-this is used to define services
+
+
+
+Directives:
+this are used to change the appearcnce and behaviour of dom.
+There are 3 types of directives-
+1.componant directive-componant directive created dom
+2.structural directive-these add or remove element from dom   
+3.arrtribute directive
+
+
+
+
+
+
+fxLayout-It is a directive used to define the LAYOUT OF HTML ELEMENTS.
+ngOnInit()-this method is called when componant is initialized.
+
+
+Ideation task------
+https://meet.google.com/aju-wqir-hsm?authuser=0
+
+https://xd.adobe.com/view/d096df37-ca37-4026-553f-8cfa6bec09ec-a6a7/grid/
+ 
+
+
+JWT Token-
+Jwt token is used for transmitting information between two parties.it restrict unwanted access .
+when we send token to any api it will decode and validate it before sending response.
+
+
+Controller-It is class in which http methods are written. It handles http requests and send corrosponding response.When frontend sends any req then
+it recieves by controller andcontroller go  in model to get data from models if required ad then return data to perticuler view in the form of response.
+
+Cookies-It is used to identify user.When user enter email and password server generate seesion id for thar perticular user and that 
+session id will store in cookies. so next time when user logins then browser identify user easily.data stores permanantly.
+
+Session Storage-It is used tto mantain state between pages.Means if there is on e loine welcome sampada and we want that line on every page then we store that in session storage and after that that line will come
+on every page.the data stored in seesion storage will exists till browser is openif we close browser the data in that will lost.
+
+Local Storage-
+It is used to store data permanantly.
+If we close the browser then  also that data exists untill we delete it manually.
+so in our application we stored token so when user login or hits login api it will directly go into the local storage and uses that token.
+
+
+https://htmltocss.github.io/
