@@ -1,0 +1,19 @@
+Major Components of .Net framework:-
+1.CLR(Common Language Runtime)- It is the runtime execution engine of .net. It act as interface between operating system and .net application.
+                                                                 It loads and executes the code.
+                                                                 It manages the memory.
+                                                                 It converts the intermidiate code into native code.
+                                                                  It handles the exceptions.
+(After writing he code we have to execute the code but without CLR we cant execute our code)
+   a.CLS(Common language specification) -(It provides syntactical rules and regulations to languages) Every language has there own syntatical rules .
+                                                                           One language can not understand the syantx of other language.
+                                                                           In .net freamwork so many languages are used and every language has their own syntax. Compiler convert that
+                                                                           that code into IL that can be as per CLS hence it is understandable by CLR. and then it executes the code.
+
+   b.CTS(Common Time System)                - (It provides data type rules and regulations to languages)Every launguage has their own data type and 
+                                                                          one language can not understand the data type of another language.
+                                                                          so Compiler convert that data type as per CTS  it is understandable by CLR. and then it executes the code.
+
+2.BCL/FCL(Base class library / Framework Class Library) - It is divided into two types: 1.Pre-defined class library (It comes under the system namespace)
+                                                                                                                                                       2.User defined class library(Assembly)
+-When class library creates it creates two files dll (dynamic link library) and exe (executbale file).dll file can be reusable in any other applications.
